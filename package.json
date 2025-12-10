@@ -1,0 +1,30 @@
+{
+  "name": "osm-location-picker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/osm-location-picker.umd.cjs",
+  "module": "./dist/osm-location-picker.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/osm-location-picker.js",
+      "require": "./dist/osm-location-picker.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.21",
+    "leaflet": "^1.9.4"
+  }
+}

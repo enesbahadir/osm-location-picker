@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSM Location Picker Demo</title>
+</head>
+
+<body>
+  <div id="wrapper" style="width: 100%; height: 100vh; position: relative;">
+    <div id="map-container" style="width: 100%; height: 100%;"></div>
+    <!-- Coordinates are now displayed via the library overlay, but we keep this for the 'variables' requirement demo usage -->
+    <div id="coords-display" class="coord-display"
+      style="position: absolute; top: 10px; right: 10px; z-index: 1000; background: white; padding: 10px; display: none;">
+      Waiting for coordinates...</div>
+  </div>
+  <script type="module" src="/src/demo.ts"></script>
+</body>
+
+</html>
