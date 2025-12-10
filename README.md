@@ -11,7 +11,8 @@ A framework-agnostic OpenStreetMap location picker library using Leaflet.
 - Framework agnostic (works with React, Angular, Vue, Vanilla JS, etc.)
 - TypeScript support
 
-## Installation
+## Installation (WIP)
+npm installation is not available yet. You can use it as a local package.
 
 ```bash
 npm install osm-location-picker
